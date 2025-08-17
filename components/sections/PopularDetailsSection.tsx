@@ -56,7 +56,7 @@ export default function PopularDetailsSection() {
     {
       id: '4',
       name: 'Bearing Housing',
-      image: '/Images/Img4.png',
+      image: '/Images/Img1.png',
       material: 'Brass, Steel',
       loadCapacity: 'Up to 20,000 N',
       thread: 'M10 to M36',
@@ -65,7 +65,7 @@ export default function PopularDetailsSection() {
     {
       id: '5',
       name: 'Gear Shaft',
-      image: '/Images/Img5.png',
+      image: '/Images/Img2.png',
       material: 'Steel 4140, Titanium',
       loadCapacity: 'Up to 25,000 N',
       thread: 'M12 to M40',
@@ -175,7 +175,7 @@ export default function PopularDetailsSection() {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut" }}
               >
-                {products.slice(2, 4).map((product, index) => (
+                {products.slice(2, 5).map((product, index) => (
                   <motion.div
                     key={`bottom-${product.id}`}
                     className="bg-gray-100 rounded-xl sm:rounded-2xl shadow-lg overflow-hidden group cursor-pointer hover:shadow-xl transition-all duration-300"
