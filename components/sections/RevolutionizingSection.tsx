@@ -38,14 +38,14 @@ export default function RevolutionizingSection() {
             <div className="pl-0 sm:pl-4 lg:pl-6 xl:pl-12">
               {/* Main Headline */}
               <motion.h2 
-                className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-12"
+                className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-gray-900 leading-tight mb-3 sm:mb-4 md:mb-6 lg:mb-6 xl:mb-8 px-2 sm:px-3 md:px-4 lg:px-4 xl:px-4"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
               >
                 Revolutionizing Manufacturing with Speed and{' '}
-                <span className="italic text-gray-400 font-light">
+                <span className="text-gray-400 font-bold italic">
                   Precision
                 </span>
               </motion.h2>

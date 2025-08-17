@@ -1,1 +1,1 @@
-export { default as Realistic3DScene } from './Realistic3DScene'
+export { default as MotorModel } from './MotorModel'

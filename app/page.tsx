@@ -6,12 +6,12 @@ import {
   VideoSection, 
   RevolutionizingSection, 
   CNCMadeEasySection, 
-  PopularDetailsSection 
+  PopularDetailsSection
 } from '@/components'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white w-full">
+    <main className="min-h-screen bg-white w-full overflow-x-hidden">
       <Header />
       <HeroSection />
       <VideoSection />
