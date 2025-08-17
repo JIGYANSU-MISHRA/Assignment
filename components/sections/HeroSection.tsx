@@ -9,7 +9,7 @@ const MotorModel = dynamic(() => import('../3d/MotorModel'), { ssr: false })
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white w-full pt-16 sm:pt-20 md:pt-24 lg:pt-20 xl:pt-24 2xl:pt-28">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white w-full pt-16 sm:pt-20 md:pt-24 lg:pt-20 xl:pt-24 2xl:pt-28 pb-8 sm:pb-10 md:pb-12 lg:pb-16 xl:pb-20 2xl:pb-24">
       {/* Content */}
       <div className="relative z-10 w-full px-2 sm:px-3 md:px-4 lg:px-6 xl:px-8 2xl:px-16 text-center">
         <motion.div
@@ -20,7 +20,7 @@ export default function HeroSection() {
         >
           {/* Main Headline */}
           <motion.h1
-            className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6 lg:mb-6 xl:mb-8 leading-tight px-1 sm:px-2 md:px-2 lg:px-2 xl:px-2"
+            className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6 lg:mb-6 xl:mb-8 leading-tight px-1 sm:px-2 md:px-2 lg:px-2 xl:px-2"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
