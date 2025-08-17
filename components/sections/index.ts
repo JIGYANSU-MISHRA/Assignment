@@ -1,0 +1,5 @@
+export { default as HeroSection } from './HeroSection'
+export { default as VideoSection } from './VideoSection'
+export { default as RevolutionizingSection } from './RevolutionizingSection'
+export { default as CNCMadeEasySection } from './CNCMadeEasySection'
+export { default as PopularDetailsSection } from './PopularDetailsSection'
